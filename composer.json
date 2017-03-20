@@ -1,0 +1,16 @@
+{
+    "name": "dekalee/statsd-swarrot-bundle",
+    "description": "Some processor to send data to statsd with swarrot",
+    "type": "bundle",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Nicolas Thal",
+            "email": "nico.th4l@gmail.com"
+        }
+    ],
+    "require": {
+        "swarrot/swarrot-bundle": "~1",
+        "domnikl/statsd": "~2.0"
+    }
+}

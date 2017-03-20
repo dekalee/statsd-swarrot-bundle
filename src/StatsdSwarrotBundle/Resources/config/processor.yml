@@ -1,0 +1,9 @@
+parameters:
+    dekalee_statsd_swarrot.processor.statsd_timer.class: Dekalee\StatsdSwarrotBundle\Configurator\StatsdTimerProcessorConfigurator
+    dekalee_statsd_swarrot.processor.statsd_counter.class: Dekalee\StatsdSwarrotBundle\Configurator\StatsdCounterProcessorConfigurator
+
+services:
+    dekalee_statsd_swarrot.processor.statsd_timer:
+        class: '%dekalee_statsd_swarrot.processor.statsd_timer.class%'
+    dekalee_statsd_swarrot.processor.statsd_counter:
+        class: '%dekalee_statsd_swarrot.processor.statsd_counter.class%'
